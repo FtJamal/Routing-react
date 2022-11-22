@@ -26,7 +26,8 @@ function App() {
         </nav>
 
         <Routes>
-      
+       {/* A <Routes> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
          
           <Route path="/about" element={<About />} /> 
           <Route path="/contact" element={<Contact />} />
